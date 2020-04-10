@@ -1,0 +1,1 @@
+Warning period for the ${Amount} ${CommonInfo::TokenSymbol} tokens staked for ${Offer} has ended. Please note that once the staking period ends tokens will be burned as per the  burn ratio of the stake.

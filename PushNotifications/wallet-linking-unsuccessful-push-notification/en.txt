@@ -1,0 +1,1 @@
+Your external wallet address could not be linked to your ${CommonInfo::TokenSymbol} wallet.

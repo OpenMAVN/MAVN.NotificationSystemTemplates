@@ -1,0 +1,1 @@
+${CommonInfo::TokenSymbol} Transaction Successful

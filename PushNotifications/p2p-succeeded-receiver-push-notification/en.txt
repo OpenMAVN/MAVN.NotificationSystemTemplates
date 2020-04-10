@@ -1,0 +1,1 @@
+Great work! You have received ${Amount} ${CommonInfo::TokenSymbol} tokens from ${SenderEmail}.

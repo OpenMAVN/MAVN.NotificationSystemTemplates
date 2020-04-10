@@ -1,0 +1,30 @@
+<p style="margin: 0; padding: 0;">Hi there!</p>
+<br>
+<p style="margin: 0; padding: 0;">We've got some great news for you! Your ${CommonInfo::TokenSymbol} account has now been activated. You can
+    log in via our Mobile App!</p>
+<br>
+<p style="margin: 0; padding: 0;">Your ${CommonInfo::TokenSymbol} account details are:</p>
+<p style="margin: 0; padding: 0;">Name: ${PersonalData::FirstName} ${PersonalData::LastName}</p>
+<p style="margin: 0; padding: 0;">Email: ${PersonalData::Email}</p>
+</br>
+<p style="margin: 0; padding: 0;">If you've got any questions, please don't hesitate to contact our Customer Support
+    Team on ${SupportPhoneNumber} for any assistance.</p>
+<br>
+<table class="btn-table"
+       style="height: 70px; border-radius: 24px; -webkit-border-radius: 24px; margin-top: 15px;">
+    <tr>
+        <td>
+            <a href="{CommonInfo::DownloadIsoAppLink}">
+                <img src="${settings::ImagesBaseUrl}/social-icons/ios.png"
+                     alt="iOS Download Link">
+            </a>
+        </td>
+        <td>
+            <a href="{CommonInfo::DownloadAndroidAppLink}">
+                <img style="margin-left: 20px"
+                     src="${settings::ImagesBaseUrl}/social-icons/android.png"
+                     alt="Android Download Link">
+            </a>
+        </td>
+    </tr>
+</table>

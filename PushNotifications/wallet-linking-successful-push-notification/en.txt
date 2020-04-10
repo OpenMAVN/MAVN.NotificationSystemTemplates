@@ -1,0 +1,1 @@
+Your external wallet address was successfully linked to your ${CommonInfo::TokenSymbol} wallet.

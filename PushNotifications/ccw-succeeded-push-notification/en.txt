@@ -1,0 +1,1 @@
+You have successfully withdrawn ${Amount} ${CommonInfo::TokenSymbol} tokens.

@@ -1,0 +1,4 @@
+@@@{
+  "partnerMessageId": "${PartnerMessageId}",
+  "route": "hotel-welcome"
+}@@@${Subject}

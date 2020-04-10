@@ -1,0 +1,1 @@
+Congratulations! You've earned ${Amount} ${CommonInfo::TokenSymbol} tokens from ${CampaignName}.

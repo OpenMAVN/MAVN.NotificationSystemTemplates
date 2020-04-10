@@ -1,0 +1,1 @@
+Excellent job! You've earned ${Amount} ${CommonInfo::TokenSymbol} tokens from ${ConditionName} in ${CampaignName}.

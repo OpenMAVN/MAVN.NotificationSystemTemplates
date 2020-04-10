@@ -1,0 +1,23 @@
+//- https://pugjs.org/language/includes.html
+//- https://pugjs.org/language/inheritance.html
+doctype html
+html
+  include head.html
+  body
+    <table class='body-table' style="text-align: center; background-color: #e9e9ea; font-family: Roboto, Arial, sans-serif; font-style: normal; font-weight: 400; margin: 0px; width: 100%;" width="100%" align="center" bgcolor="#e9e9ea">
+      <tr>
+        <td style='padding-bottom: 40px'>
+          include logo.html
+
+          <table class='content-table' style="margin: auto; width: 600px; background-color: #fff;" width="600" bgcolor="#fff">
+            <tr>
+              <td colspan='2' class='content-column'style="padding: 40px 30px 50px 30px; font-size: 16px; color: #393b49; letter-spacing: 0; line-height: 24px; text-align: left;" align="left">
+                block content
+              </td>
+            </tr>
+          </table>
+
+          include footer.html      
+        </td>
+      </tr>
+    </table>
