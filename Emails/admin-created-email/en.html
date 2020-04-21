@@ -102,6 +102,26 @@
               <p style="margin: 0; padding: 0;">Dear ${Name},</p>
               <br>
               <p style="margin: 0; padding: 0;">Your account in the Token Community Manager admin panel has been successfully created.</p>
+              <br>
+              <p style="margin: 0; padding: 0;">Visit the link below to verify your email address:</p>
+              <table class="btn-table"
+                     style="height: 48px; border-radius: 24px; -webkit-border-radius: 24px; background-color: #242635; margin-top: 30px; margin-bottom: 30px; width: 230px;"
+                     width="230"
+                     height="48"
+                     bgcolor="#242635">
+                <tr>
+                  <td class="btn-column"
+                      style="padding: 5px 10px; text-align: center;"
+                      align="center">
+                    <a href="${EmailVerificationLink}"
+                       class="btn-link"
+                       style="padding: 12px 0px; text-decoration: none; font-size: 16px; letter-spacing: 0; font-weight: 800; font-style: normal; line-height: 24px; color: #fff;">
+                      <span>Verify email</span>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
               <p style="margin: 0; padding: 0;">Use credentials below to access the admin tool:</p>
               <br>
               <p style="margin: 0; padding: 0;">
@@ -113,7 +133,7 @@
               <p style="margin: 0; padding: 0;">Password: ${Password}</p>
               <br>
               <p style="margin: 0; padding: 0;">Kind Regards,</p>
-              <p style="margin: 0; padding: 0;">Token Community Manager Team</p>
+              <p style="margin: 0; padding: 0;">Community Manager Team</p>
             </td>
           </tr>
         </table>
@@ -145,14 +165,14 @@
                          style="height: 16px; max-width: 100%;"
                          height="16"></a>
                 </li>
-                <!-- <li style="display: inline-block; margin: 0 9px;">
-          <a href="${CommonInfo::LinkedInLink}">
-            <img src="${settings::ImagesBaseUrl}/social-icons/linkedin_in.png"
-                 alt="LinkedIn Social link"
-                 style="height: 16px; max-width: 100%;"
-                 height="16"></a>
-        </li>
-        <li class="youtube"
+                <li style="display: inline-block; margin: 0 9px;">
+                  <a href="${CommonInfo::LinkedInLink}">
+                    <img src="${settings::ImagesBaseUrl}/social-icons/linkedin_in.png"
+                         alt="LinkedIn Social link"
+                         style="height: 16px; max-width: 100%;"
+                         height="16"></a>
+                </li>
+                <!-- <li class="youtube"
             style="display: inline-block; margin: 0 9px;">
           <a href="${CommonInfo::YouTubeLink}">
             <img src="${settings::ImagesBaseUrl}/social-icons/youtube.png"
@@ -163,8 +183,7 @@
               </ul>
               <div class="footer-text"
                    style="line-height: 6px; letter-spacing: 1.3px; font-size: 12px; font-weight: 500; color: #393b49; font-family: Roboto, Arial, sans-serif;">
-                <p>© 2019 by Company Name Placeholder. All Rights Reserved.</p>
-                <p>Address of the company placeholder.</p>
+                <p>© 2020 OpenMAVN.</p>
               </div>
               <ul class="actions"
                   style="list-style-type: none; margin: 24px 0 0 0; padding: 0">
