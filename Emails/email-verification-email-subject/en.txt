@@ -1,1 +1,1 @@
-${CommonInfo::TokenSymbol} verification request
+MAVN email verification
