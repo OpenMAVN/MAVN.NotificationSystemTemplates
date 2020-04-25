@@ -20,7 +20,7 @@ where `{MessageType}` can be:
 **All templates should be described in the confluence page - List of Notification Templates**
 
 # Email Templates Development
-recommended version of node is 12 for now
-`npm i` - to install packages
-`gulp` - will launch `gulp pug` task
-`gulp watch` - realtime recompilation on any change in .pug or .html files under Emails folder
+Install nodejs (https://nodejs.org/)  
+Then execute commands:  
+`npm i` - to install packages  
+`gulp watch` - realtime recompilation on any change in .pug or .html files under Emails folder  
