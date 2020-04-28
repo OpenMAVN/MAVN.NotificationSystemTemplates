@@ -23,7 +23,12 @@ exports.pug = processPugFiles;
 exports.default = processPugFiles;
 
 function watch(done) {
-  gulp.watch(['Emails/**/*.pug', 'Emails/**/content-part/*.html', 'emails_include/**/*.html'], processPugFiles);
+  gulp.watch([
+    'Emails/**/*.pug',
+    'Emails/**/content-part/*.html',
+    'emails_include/**/*.pug',
+    'emails_include/**/*.html'
+  ], processPugFiles);
   done();
 }
 exports.watch = gulp.series(watch);
