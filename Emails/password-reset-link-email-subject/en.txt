@@ -1,1 +1,1 @@
-${CommonInfo::TokenSymbol}: password reset link
+MAVN: password reset link
