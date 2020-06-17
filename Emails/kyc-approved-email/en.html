@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport'
+        content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible'
+        content='ie=edge'>
+  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+  <meta name="x-apple-disable-message-reformatting">
+  <!-- Tell iOS not to automatically link certain text strings. -->
+  <meta name="format-detection"
+        content="telephone=no,address=no,email=no,date=no,url=no">
+
+  <style>
+    @import url('http://fonts.googleapis.com/css?family=Roboto');
+
+    /*If the screen size is under 600px*/
+    @media only screen and (max-width: 600px) {
+      .logo-table {
+        margin: auto !important;
+        width: 300px !important;
+      }
+
+      .logo-column {
+        padding: 30px 0 !important;
+        text-align: center !important;
+      }
+
+      .logo {
+        max-width: 100% !important;
+      }
+
+      .content-table {
+        margin: auto !important;
+        width: 280px !important;
+      }
+
+      .content-footer {
+        margin: 27px auto 0 auto !important;
+        width: 280px !important;
+      }
+
+      .footer-text {
+        line-height: 20px !important;
+      }
+
+      .content-column {
+        padding: 30px 20px 40px 20px !important;
+      }
+
+      ul.actions li {
+        display: inline-block !important;
+        line-height: 24px !important;
+      }
+
+      ul.socials {
+        padding: 0 !important;
+      }
+
+      ul.actions {
+        list-style-type: none !important;
+        padding: 0 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <table class='body-table'
+         style="text-align: center; background-color: #f2f3f8; font-family: Roboto, Arial, sans-serif; font-style: normal; font-weight: 400; margin: 0px; width: 100%;"
+         width="100%"
+         align="center"
+         bgcolor="#f2f3f8">
+    <tr>
+      <td style='padding-bottom: 40px'>
+        <table class="logo-table"
+               style="margin: auto; width: 600px;"
+               width="600">
+          <tr>
+            <td class="logo-column"
+                style="padding: 40px 0; text-align: center;"
+                align="center">
+              <img src="${settings::ImagesBaseUrl}/email-images/email-logo.png?v=1"
+                   alt="Company Logo"
+                   class="logo"
+                   style="max-width: 100%; height: 40px;"
+                   height="40">
+            </td>
+          </tr>
+        </table>
+        <table class='content-table'
+               style="margin: auto; width: 600px; background-color: #fff;"
+               width="600"
+               bgcolor="#fff">
+          <tr>
+            <td colspan='2'
+                class='content-column'
+                style="padding: 40px 30px 50px 30px; font-size: 16px; color: #393b49; letter-spacing: 0; line-height: 24px; text-align: left;"
+                align="left">
+              <p style="margin: 0; padding: 0;">Dear ${AdminUserName},</p>
+              <br>
+              <p style="margin: 0; padding: 0;">We are glad to inform you that your application for ${BusinessName} on the MAVN Platform has been approved!</p>
+              <br>
+              <p style="margin: 0; padding: 0;">Now you can publish vouchers and receive payments from your clients on the platform.</p>
+              <br>
+              <p style="margin: 0; padding: 0;">
+                <a href="${VoucherManagerUrl}">
+                  <span>Go to voucher manager</span>
+                </a>
+              </p>
+              <br>
+              <p style="margin: 0; padding: 0;">Kind Regards,</p>
+              <p style="margin: 0; padding: 0;">Community Manager Team</p>
+            </td>
+          </tr>
+        </table>
+        <table class="content-footer"
+               style="text-align: center; margin: 27px auto 0 auto; width: 600px;"
+               width="600">
+          <tr>
+            <td>
+              <ul class="socials"
+                  style="list-style-type: none; margin-bottom: 25px; padding: 0">
+                <li style="display: inline-block; margin: 0 9px;">
+                  <a href="${CommonInfo::FacebookLink}">
+                    <img src="${settings::ImagesBaseUrl}/social-icons/facebook_f.png"
+                         alt="Facebook Social link"
+                         style="height: 16px; max-width: 100%;"
+                         height="16"></a>
+                </li>
+                <li style="display: inline-block; margin: 0 9px;">
+                  <a href="${CommonInfo::TwitterLink}">
+                    <img src="${settings::ImagesBaseUrl}/social-icons/twitter.png"
+                         alt="Twitter Social link"
+                         style="height: 16px; max-width: 100%;"
+                         height="16"></a>
+                </li>
+                <li style="display: inline-block; margin: 0 9px;">
+                  <a href="${CommonInfo::InstagramLink}">
+                    <img src="${settings::ImagesBaseUrl}/social-icons/instagram.png"
+                         alt="Instagram Social link"
+                         style="height: 16px; max-width: 100%;"
+                         height="16"></a>
+                </li>
+                <li style="display: inline-block; margin: 0 9px;">
+                  <a href="${CommonInfo::LinkedInLink}">
+                    <img src="${settings::ImagesBaseUrl}/social-icons/linkedin_in.png"
+                         alt="LinkedIn Social link"
+                         style="height: 16px; max-width: 100%;"
+                         height="16"></a>
+                </li>
+                <!-- <li class="youtube"
+            style="display: inline-block; margin: 0 9px;">
+          <a href="${CommonInfo::YouTubeLink}">
+            <img src="${settings::ImagesBaseUrl}/social-icons/youtube.png"
+                 alt="Youtube Social link"
+                 style="height: 12px; max-width: 100%;"
+                 height="12"></a>
+        </li> -->
+              </ul>
+              <div class="footer-text"
+                   style="line-height: 6px; letter-spacing: 1.3px; font-size: 12px; font-weight: 500; color: #393b49; font-family: Roboto, Arial, sans-serif;">
+                <p>© 2020 OpenMAVN.</p>
+              </div>
+              <ul class="actions"
+                  style="list-style-type: none; margin: 24px 0 0 0; padding: 0">
+                <li style="display: inline-block; margin: 0; position: relative;">
+                  <a href="${CommonInfo::DownloadAppLink}"
+                     style="font-size: 12px; font-weight: 600; font-family: Roboto, Arial, sans-serif; color: #236be9; text-decoration: none; letter-spacing: 0.6px;">Download
+                    mobile app</a>
+                </li>
+                <li style="display: inline-block; margin: 0; position: relative;">
+                  <span class="separator"
+                        style="font-size: 27px; line-height: 5px; vertical-align: middle; padding: 0 5px; color: #393b49;">•</span>
+                  <a href="${CommonInfo::TermsAndConditionLink}"
+                     style="font-size: 12px; font-weight: 600; font-family: Roboto, Arial, sans-serif; color: #236be9; text-decoration: none; letter-spacing: 0.6px;">Terms
+                    &amp; Conditions</a>
+                </li>
+                <li style="display: inline-block; margin: 0; position: relative;">
+                  <span class="separator"
+                        style="font-size: 27px; line-height: 5px; vertical-align: middle; padding: 0 5px; color: #393b49;">•</span>
+                  <a href="${CommonInfo::PrivacyPolicyLink}"
+                     style="font-size: 12px; font-weight: 600; font-family: Roboto, Arial, sans-serif; color: #236be9; text-decoration: none; letter-spacing: 0.6px;">Privacy
+                    Policy</a>
+                </li>
+                <!-- <li style="display: inline-block; margin: 0 5px 0 0; position: relative;">
+          <span class="separator"
+                style="font-size: 27px; line-height: 5px; vertical-align: middle; padding: 0 5px; color: #393b49;">•</span>
+          <a href="${CommonInfo::UnsubscribeLink}"
+             style="font-size: 12px; font-weight: 600; font-family: Roboto, Arial, sans-serif; color: #236be9; text-decoration: none; letter-spacing: 0.6px;">Unsubscribe</a>
+        </li> -->
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
