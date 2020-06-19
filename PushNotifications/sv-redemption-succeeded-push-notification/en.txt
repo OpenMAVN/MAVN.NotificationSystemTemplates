@@ -1,0 +1,1 @@
+You have successfully used voucher with code ${VoucherShortCode} at ${PartnerName}.
